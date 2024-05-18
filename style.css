@@ -1,0 +1,154 @@
+* {
+
+  margin: 0;
+  padding: 0;
+
+  font-family: Poppins;
+  font-size: 20px;
+  
+  text-align: left;
+
+}
+
+.parentDiv {
+
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #e9f8e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundImage {
+
+
+  margin: 10px auto;
+  background-color: #e9f8e5;
+
+}
+
+
+
+.signUpForm {
+  width: 50%;
+  height: 100vh;
+  border-radius: 25px 0px 0px 25px;
+  background-color: #ffffff;
+  border: 0px solid #000;
+
+  box-shadow: 0px 20px 20px #888888;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CreateAccount{
+
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+.titleArea {
+
+  margin-left: 45px;
+  opacity: 75%;
+  
+}
+
+.BoxArea {
+
+  display: flex;
+  height: fit-content;
+  width: 580px;
+  margin: 25px;
+  padding: 20px;
+  border: 5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  gap: 20px;
+  opacity: 50%;
+
+ 
+
+
+}
+
+.SignUpButton{
+
+  display: flex;
+  justify-content: center; 
+  margin-top: 60px;
+
+
+}
+
+
+.SignUpButton button{
+
+  height: 70px;
+  width: 580px;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  background-color: #73895D;
+}
+
+
+.OR {
+
+  display: flex;
+  justify-content: center;  
+  width: 580px;
+  margin: 25px;
+  gap: 20px;
+  opacity: 50%;
+}
+
+
+.social-media-options {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.social-button {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  transition: opacity 0.3s;
+}
+
+
+.facebook {
+  background-image: url('images/facebook.png');
+}
+
+.google {
+  background-image: url('images/google.png');
+}
+
+.linkedin {
+  background-image: url('images/Apple.png');
+}
+
+.social-button:hover {
+  opacity: 0.8;
+}
+
+
+.already {
+
+  display: flex;
+  justify-content: center;  
+  width: 580px;
+  margin: 25px;
+  gap: 20px;
+  opacity: 50%;
+}
+
+.already a{
+
+  text-decoration: none;
+  color:#73895D;
+  ;
+}
